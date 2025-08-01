@@ -1,6 +1,7 @@
 import { Boton, Strong } from "../../components/Generals/Complements"
 import producto from "../../data/Productos.json"
 import "./Productos.css"
+
 const Productos = ()=>{
     return(
         <>
