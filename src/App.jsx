@@ -8,8 +8,7 @@ import Producto from "./Pages/Productos/Productos"
 
 const App = ()=>{
   return(
-    <>
-      <BrowserRouter>
+    <BrowserRouter>
     <div className="Container">
     <Header/>
     <Main>
@@ -22,7 +21,6 @@ const App = ()=>{
     <Footer/>
     </div>
       </BrowserRouter>
-    </>
   )
 }
 
