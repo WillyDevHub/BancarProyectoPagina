@@ -4,7 +4,7 @@ import Footer from "./components/Footer/Footer"
 import Main from "./components/Main/Main"
 import Aside from "./components/Aside/Aside"
 import Home from "./Pages/Home/Home"
-import Productos from "./Pages/Productos/Productos"
+import Productos from "./Pages/Productos/Articles"
 
 const App = ()=>{
   return(
