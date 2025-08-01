@@ -34,7 +34,7 @@ const IntroInfoBody = ({title, info})=>{
 const CardBody = ({title, text, picture})=>{
   return(
     <div className="card">
-      <Image url={picture} />
+      <Image url={picture} comment={title}/>
     <div>
       <h2>{title}</h2>
       <p>{text}</p>
