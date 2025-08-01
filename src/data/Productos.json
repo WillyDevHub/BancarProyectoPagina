@@ -1,0 +1,65 @@
+[
+  {
+    "id":1,
+    "article": "True Made Whey",
+    "price": 45600,
+    "image": "./public/imagenes/article01.jpg",
+    "calification":4
+  },
+  {
+    "id":2,
+    "article": "Mancuerna Regulable",
+    "price": 45600,
+    "image": "./public/imagenes/article02.jpg",
+    "calification":3
+  },
+  {
+    "id":3,
+    "article": "Banco Plano Soporte",
+    "price": 45600,
+    "image": "./public/imagenes/article04.jpg",
+    "calification":5
+  },
+  {
+    "id":4,
+    "article": "Cintas de agarre",
+    "price": 45600,
+    "image": "./public/imagenes/article03.jpg",
+    "calification":2
+  },
+  {
+    "id":5,
+    "article": "Multygym Body",
+    "price": 45600,
+    "image": "./public/imagenes/article05.jpg",
+    "calification":5
+  },
+  {
+    "id":6,
+    "article": "Barra Pull Up",
+    "price": 45600,
+    "image": "./public/imagenes/article06.jpg",
+    "calification":3
+  },
+  {
+    "id":7,
+    "article": "Cinta Caminadora",
+    "price": 45600,
+    "image": "./public/imagenes/article08.jpg",
+    "calification":4
+  },
+  {
+    "id":8,
+    "article": "Bebida Prime",
+    "price": 45600,
+    "image": "./public/imagenes/article09.jpg",
+    "calification":3
+  },
+  {
+    "id":9,
+    "article": "Bebida Prime",
+    "price": 45600,
+    "image": "./public/imagenes/article09.jpg",
+    "calification":3
+  }
+]

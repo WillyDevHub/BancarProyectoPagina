@@ -1,0 +1,49 @@
+.card{
+    color: var(--gray-color);
+    max-width: 800px;
+    height: 200px;
+    font-size: clamp(.5em, 2vw, 1.1em);
+    margin: 40px 5px;
+     box-shadow: 5px 5px 0 5px var(--primary-color),
+    -2px -2px 0 2px var(--gray-color);
+    background: var(--secondary-color-dark);
+}
+.card img{
+    width: clamp(100px, 50%, 200px);
+    height: 200px;
+    float: left;
+    margin-right: 25px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 5px 0 0 0 var(--primary-color);
+    object-fit: cover;
+}
+.card h2{
+    margin: 0;
+    padding: 15px 0;
+    letter-spacing: .1em;
+    line-height: 1.2em;
+}
+.card p{
+    letter-spacing: .1em;
+    padding: 0 15px;
+    line-height: 1.3em;
+    font-weight: 400;
+}
+.title-clientes{
+    color: var(--gray-color);
+    text-align: center;
+    font-size: 1.2em;
+}
+.content-introInfo{
+    padding: 7px 0;
+    font-size: clamp(.5em, 2vw, 1.5em);
+    color: var(--gray-color);
+    & h2{
+        letter-spacing: .1em;
+        line-height: 1.5em;
+    }
+    & p{
+        line-height: 1.5em;
+        letter-spacing: .1em;
+    }
+}

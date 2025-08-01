@@ -1,0 +1,16 @@
+.div-foot{
+    text-align: center;
+    padding: 15px 0;
+}
+.div-foot ul{
+    list-style-type: none;
+    padding: 0;
+}
+.div-foot li{
+    display: inline-block;
+    padding: 3px 7px;
+    & a{
+        text-decoration: none;
+        color: var(--gray-color);
+    }
+}
