@@ -1,19 +1,19 @@
 [
     {
         "id":0,
-        "image":"./public/trainer.jpg",
+        "image":"/public/trainer.jpg",
         "student":"Matias Martinez",
         "comment":"Gracias a Shooping-Gym logre equipar mi gimnasio con maquinaria moderna, ya que cuenta con una gran gama de productos"
     },
     {
         "id":1,
-        "image":"./public/trainer1.jpg",
+        "image":"/public/trainer1.jpg",
         "student":"Lucas Matineli",
         "comment":"Eh logrado abrir mi propio gimnasio, gracias!!! Shooping-Gym "
     },
     {
         "id":2,
-        "image":"./public/trainer2.jpg",
+        "image":"/public/trainer2.jpg",
         "student":"Lorena Gimenez",
         "comment":"Como instructora fitness adquiri productos de Shopping-Gym y eh crecido como profesional"
     }

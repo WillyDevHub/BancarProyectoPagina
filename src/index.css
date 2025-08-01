@@ -22,7 +22,7 @@ body{
 
 header{
   flex: 100%;
-  background: linear-gradient(to bottom, var(--secondary-color-dark) 5%, transparent), url(../public/image.png) no-repeat center;
+  background: linear-gradient(to bottom, var(--secondary-color-dark) 5%, transparent), url(/public/image.png) no-repeat center;
   background-clip: border-box;
   background-size: cover;
 }
