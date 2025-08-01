@@ -1,5 +1,4 @@
 import utils from "../../data/panel.json";
-import { Strong } from "../Generals/Complements"; 
 import "./Aside.css";
 
 const Aside = () => {

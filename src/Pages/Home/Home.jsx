@@ -1,8 +1,7 @@
 import "./Home.css";
 import cliente from "../../data/clientes.json"
 import intro from "../../data/intro.json"
-import { Image, NavItems } from "../../components/Generals/Complements";
-import { useEffect, useState } from "react";
+import { Image } from "../../components/Generals/Complements";
 
 
 const Home = () => {
