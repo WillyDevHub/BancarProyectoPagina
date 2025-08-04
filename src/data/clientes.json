@@ -2,19 +2,19 @@
     {
         "id":0,
         "image":"/trainer.jpg",
-        "student":"Matias Martinez",
-        "comment":"Gracias a Shooping-Gym logre equipar mi gimnasio con maquinaria moderna, ya que cuenta con una gran gama de productos"
+        "student":"Matias Martínez",
+        "comment":"Me armé un mini gimnasio en casa para entrenar a mis clientes y Shopping-Gym fue clave. Buenos precios, calidad profesional y cumplieron con los tiempos de entrega."
     },
     {
         "id":1,
         "image":"/trainer1.jpg",
-        "student":"Lucas Matineli",
-        "comment":"Eh logrado abrir mi propio gimnasio, gracias!!! Shooping-Gym "
+        "student":"Lucas Martinelli",
+        "comment":"Excelente atención y variedad. Compré equipamiento para mi gimnasio. Lo que más destaco es el diseño moderno de las máquinas, ideal para un espacio con estética cuidada. ¡Gracias Shopping-Gym!”"
     },
     {
         "id":2,
         "image":"/trainer2.jpg",
-        "student":"Lorena Gimenez",
-        "comment":"Como instructora fitness adquiri productos de Shopping-Gym y eh crecido como profesional"
+        "student":"Lorena Giménez",
+        "comment":"Buscaba máquinas para rehabilitación de pacientes y me ofrecieron varias opciones adaptadas. Compré una caminadora con inclinación y una bicicleta con respaldo, todo de excelente calidad."
     }
 ]

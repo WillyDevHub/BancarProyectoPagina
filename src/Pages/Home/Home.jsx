@@ -33,7 +33,7 @@ const IntroInfoBody = ({title, info})=>{
 
 const CardBody = ({title, text, picture})=>{
   return(
-    <div className="card">
+    <div className="reseña">
       <Image url={picture} comment={title}/>
     <div>
       <h2>{title}</h2>

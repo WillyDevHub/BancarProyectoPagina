@@ -1,4 +1,4 @@
-.card{
+.reseña{
     color: var(--gray-color);
     max-width: 800px;
     height: 200px;
@@ -7,8 +7,12 @@
      box-shadow: 5px 5px 0 5px var(--primary-color),
     -2px -2px 0 2px var(--gray-color);
     background: var(--secondary-color-dark);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+   
 }
-.card img{
+.reseña img{
     width: clamp(100px, 50%, 200px);
     height: 200px;
     float: left;
@@ -17,17 +21,19 @@
     box-shadow: 5px 0 0 0 var(--primary-color);
     object-fit: cover;
 }
-.card h2{
+.reseña h2{
     margin: 0;
     padding: 15px 0;
     letter-spacing: .1em;
     line-height: 1.2em;
 }
-.card p{
+.reseña p{
     letter-spacing: .1em;
     padding: 0 15px;
     line-height: 1.3em;
     font-weight: 400;
+    white-space: wrap;
+
 }
 .title-clientes{
     color: var(--gray-color);

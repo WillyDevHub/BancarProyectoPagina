@@ -6,9 +6,8 @@ const FooterSection = ()=>{
         <div className="div-foot">
             <small>&copy; Todos los derechos Reservados</small>
             <ul>
-            <NavItems enlace="./index" texto="Enviar consulta"/>
-            <NavItems enlace="./index" texto="Soporte"/>
-            <NavItems enlace="./index" texto="Marcas Representacíon"/>
+            <NavItems enlace="mailto:shoppingGym2025@gmail.com?&body=%27hola%27" texto="Enviar consulta"/>
+            <NavItems enlace="https://www.adidas.com.ar/" texto="Marcas Representacíon"/>
             </ul>
         </div>
     )
