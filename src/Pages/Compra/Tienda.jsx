@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import "./Compra.css";
+import "./Tienda.css";
 import { Image, Boton, Strong, NavItems } from "../../components/Generals/Complements";
 import { useEffect, useState } from "react";
 import Productos from "../../data/Productos.json";
