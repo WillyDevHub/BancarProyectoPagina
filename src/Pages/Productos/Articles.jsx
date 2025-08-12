@@ -1,7 +1,7 @@
-import { Boton, Strong } from "../../components/Generals/Complements"
+import { Boton, NavItems, Strong } from "../../components/Generals/Complements"
 import articles from "../../data/Productos.json"
 import "./Articles.css"
-
+import Carrito from "../compra/Compra"
 const Productos = ()=>{
     return(
         <>
@@ -22,15 +22,13 @@ const CardBody = ({article, price, image, calification})=>{
     )
 }
 
-
-
 const Card = ()=>{
     return(
         <div className="container-cart">
         {articles.map(({id, article, price, image, calification})=>
         <div key={id} className="Card">
                 <CardBody image={image} article={article} price={price} calification={calification}/>
-                <Boton texto="Comprar" funcion={()=> alert("Compra " + article)}/>
+                <NavItems texto="Comprar" enlace={`productos/tienda/${id}`}/>
         </div>
         )}
         </div>

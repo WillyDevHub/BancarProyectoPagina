@@ -1,5 +1,5 @@
 import { useState } from "react"
-import  {Boton, Strong, NavItems}  from "../Generals/Complements"
+import  {BotonSimple, Strong, NavItems}  from "../Generals/Complements"
 import "./Header.css"
 
 
@@ -23,7 +23,7 @@ const HeaderHero = ()=>{
     return(
         <div className="Header-hero">
             <h1>Shopping-<Strong texto="Gym" /></h1>
-            <Boton clase={change ? "touch" : "no-touch"} funcion={ChangeBtn} texto={change ? "Comenzamos?" : "A entrenar!!"}/>
+            <BotonSimple clase={change ? "touch" : "no-touch"} callback={ChangeBtn} text={change ? "Comenzamos?" : "A entrenar!!"}/>
         </div>
     )
 }
