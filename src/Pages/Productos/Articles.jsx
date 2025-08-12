@@ -28,7 +28,7 @@ const Card = ()=>{
         {articles.map(({id, article, price, image, calification})=>
         <div key={id} className="Card">
                 <CardBody image={image} article={article} price={price} calification={calification}/>
-                <NavItems texto="Comprar" enlace={`productos/tienda/${id}`}/>
+                <NavItems texto="Comprar" enlace={`/tienda/${id}`}/>
         </div>
         )}
         </div>
