@@ -1,7 +1,6 @@
-import { Boton, NavItems, Strong } from "../../components/Generals/Complements"
+import {NavItems, Strong } from "../../components/Generals/Complements"
 import articles from "../../data/Productos.json"
 import "./Articles.css"
-import Carrito from "../compra/Compra"
 const Productos = ()=>{
     return(
         <>
@@ -28,7 +27,7 @@ const Card = ()=>{
         {articles.map(({id, article, price, image, calification})=>
         <div key={id} className="Card">
                 <CardBody image={image} article={article} price={price} calification={calification}/>
-                <NavItems texto="Comprar" enlace={`/tienda/${id}`}/>
+                <NavItems texto="Comprar" enlace={`productos/tienda/${id}`}/>
         </div>
         )}
         </div>
