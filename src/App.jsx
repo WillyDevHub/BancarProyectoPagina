@@ -5,7 +5,7 @@ import Main from "./components/Main/Main"
 import Aside from "./components/Aside/Aside"
 import Home from "./Pages/Home/Home"
 import Productos from "./Pages/Productos/Articles"
-import Carrito from "./Pages/Compra/tienda"
+import Carrito from "./Pages/Compra/Tienda"
 
 const App = ()=>{
   return(
